@@ -3,7 +3,7 @@
 ## Course Info
   - Reinforce Learning (by David Silver)
   - Course URL : http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
-  - Reference : https://www.gitbook.com/book/dnddnjs/rl/details
+  - Reference : https://www.gitbook.com/book/dnddnjs/rl/details
 
 ## Youtube (for lecture video)
   - https://www.youtube.com/playlist?list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9-
