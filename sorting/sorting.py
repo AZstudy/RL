@@ -26,3 +26,4 @@ a = Sort()
 a.value_iteration()
 for s in a.states:
     print s, a.values[s]
+
