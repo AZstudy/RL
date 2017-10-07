@@ -1,7 +1,12 @@
 # ReinforceLearningEdu
 
 ## Installation
-``` git submodule update --init --recursive ```
+``` 
+git submodule update --init --recursive 
+cd gym; pip3 install -e .; cd ..
+cd baselines; pip3 install -e .; cd ..
+```
+
 
 
 ## Course Info
