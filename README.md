@@ -1,5 +1,9 @@
 # ReinforceLearningEdu
 
+## Installation
+``` git submodule update --init --recursive ```
+
+
 ## Course Info
   - Reinforce Learning (by David Silver)
   - Course URL : http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
