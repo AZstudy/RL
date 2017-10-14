@@ -1,5 +1,14 @@
 # ReinforceLearningEdu
 
+## Installation
+``` 
+git submodule update --init --recursive 
+cd gym; pip3 install -e .; cd ..
+cd baselines; pip3 install -e .; cd ..
+```
+
+
+
 ## Course Info
   - Reinforce Learning (by David Silver)
   - Course URL : http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
