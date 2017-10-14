@@ -5,6 +5,7 @@
 git submodule update --init --recursive 
 cd gym; pip3 install -e .; cd ..
 cd baselines; pip3 install -e .; cd ..
+cd gym-sliding-puzzle; pip3 install -e .; cd ..
 ```
 
 
