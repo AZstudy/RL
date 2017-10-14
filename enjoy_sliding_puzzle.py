@@ -1,10 +1,10 @@
 import gym
+import gym_sliding_puzzle
 
 from baselines import deepq
 
 def main():
-    env = gym.make("SlidingPuzzle-v0")
-    env.shuffle = 5
+    env = gym_sliding_puzzle.make("SlidingPuzzle-v0")
     act = deepq.load("sliding_puzzle.pkl")
 
     while True:

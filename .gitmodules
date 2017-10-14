@@ -4,3 +4,6 @@
 [submodule "baselines"]
 	path = baselines
 	url = git://github.com/AZstudy/baselines.git
+[submodule "gym-sliding-puzzle"]
+	path = gym-sliding-puzzle
+	url = https://github.com/AZstudy/gym-sliding-puzzle

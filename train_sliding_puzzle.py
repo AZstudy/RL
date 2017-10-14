@@ -1,4 +1,5 @@
 import gym
+import gym_sliding_puzzle
 import os 
 import dill
 
@@ -7,13 +8,13 @@ from baselines import deepq
 
 def callback(lcl, glb):
     # stop training if reward exceeds 199
-    is_solved = len(lcl['episode_rewards']) > 100 and sum(lcl['episode_rewards'][-101:-1]) / 100.0 >= -20
+    # is_solved = len(lcl['episode_rewards']) > 100 and sum(lcl['episode_rewards'][-101:-1]) / 100.0 >= -20
     #return is_solved
     return False
 
 
 def main():
-    env = gym.make("SlidingPuzzle-v0")
+    env = gym_sliding_puzzle.make("SlidingPuzzle-v0")
     env.shuffle = 4
     model = deepq.models.mlp([20, 10, 5])
 
@@ -25,7 +26,7 @@ def main():
         env,
         q_func=model,
         lr=1e-3,
-        max_timesteps=100000,
+        max_timesteps=1000,
         buffer_size=50000,
         exploration_fraction=0.1,
         exploration_final_eps=0.02,
